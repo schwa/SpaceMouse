@@ -1,3 +1,4 @@
+#if os(macOS)
 import Foundation
 import Synchronization
 
@@ -197,3 +198,4 @@ private final class _TLSDelegate: NSObject, URLSessionDelegate, URLSessionWebSoc
         }
     }
 }
+#endif

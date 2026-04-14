@@ -1,3 +1,4 @@
+#if os(macOS)
 import Foundation
 
 /// Errors that can occur during SpaceMouse connection and communication.
@@ -17,3 +18,4 @@ public enum SpaceMouseError: Error {
     /// Unexpected message format.
     case protocolError(String)
 }
+#endif

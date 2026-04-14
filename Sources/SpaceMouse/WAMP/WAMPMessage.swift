@@ -1,3 +1,4 @@
+#if os(macOS)
 import Foundation
 
 /// WAMP v1 message type identifiers.
@@ -36,3 +37,4 @@ struct AnySendable: Sendable {
         self.value = value
     }
 }
+#endif

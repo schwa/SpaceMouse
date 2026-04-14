@@ -1,3 +1,4 @@
+#if os(macOS)
 import SpaceMouse
 import Foundation
 
@@ -65,5 +66,6 @@ struct SpaceMouseCLI {
     }
 
 }
+#endif
 
 

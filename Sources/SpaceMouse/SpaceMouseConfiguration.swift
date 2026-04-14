@@ -1,3 +1,4 @@
+#if os(macOS)
 import Foundation
 
 /// Scene properties read by the SpaceMouse driver to compute navigation.
@@ -127,3 +128,4 @@ public struct SpaceMouseConfiguration: Sendable {
         self.rowMajorOrder = rowMajorOrder
     }
 }
+#endif

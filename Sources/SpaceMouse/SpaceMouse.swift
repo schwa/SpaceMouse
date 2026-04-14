@@ -1,3 +1,4 @@
+#if os(macOS)
 import Foundation
 import Synchronization
 
@@ -204,3 +205,4 @@ public final class SpaceMouse: Sendable {
         set { configuration.withLock { $0.pointerPosition = newValue } }
     }
 }
+#endif

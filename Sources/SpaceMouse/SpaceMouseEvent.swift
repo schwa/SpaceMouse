@@ -1,3 +1,4 @@
+#if os(macOS)
 import Foundation
 
 /// Events emitted by the SpaceMouse navigation library.
@@ -39,3 +40,4 @@ public enum SpaceMouseEvent: Sendable {
     /// Selection affine matrix changed.
     case selectionAffine([Double])
 }
+#endif
